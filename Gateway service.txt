@@ -2,3 +2,8 @@ Gateway services are created to expose our services for clients outside of our d
 
 Reference:
 https://www.tutorialspoint.com/spring_cloud/spring_cloud_gateway.htm
+
+works in gateway's port number:
+
+http://localhost:8086/vehicle-service/vehicles/
+http://localhost:8086/quota-service/quotas/
