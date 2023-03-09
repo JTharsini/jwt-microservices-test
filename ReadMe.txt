@@ -1,0 +1,1 @@
+@EnableEurekaClient can be skipped now. But added for clear identification

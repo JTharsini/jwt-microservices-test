@@ -1,0 +1,19 @@
+Config Service act as Configuration Server for the configurations in config-repo.
+It has the dependency for the Spring config server. The dependency:
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-config-server</artifactId>
+		</dependency>
+		
+Spring config clients are the services those consume the Spring config server.
+It has the dependency for the Spring config client. The dependency:
+
+		<dependency>
+		   <groupId>org.springframework.cloud</groupId>
+		   <artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
+		
+Reference:
+https://dzone.com/articles/using-spring-config-server
+https://dzone.com/articles/configuring-micro-services-spring-cloud-config-ser

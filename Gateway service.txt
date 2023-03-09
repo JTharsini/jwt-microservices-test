@@ -1,0 +1,4 @@
+Gateway services are created to expose our services for clients outside of our domain
+
+Reference:
+https://www.tutorialspoint.com/spring_cloud/spring_cloud_gateway.htm
